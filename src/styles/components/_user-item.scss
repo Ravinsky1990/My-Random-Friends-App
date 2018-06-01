@@ -1,0 +1,15 @@
+.listItem{
+    margin: 0 0 $l-size 0;
+    width: 40%;
+    display: flex;
+}
+.user-caption span{
+    display: block;
+}
+.user-img-wrap{
+    display: flex;
+    align-items: center;
+}
+.user-caption{
+    margin-left: $s-size;
+}

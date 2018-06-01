@@ -1,0 +1,15 @@
+const AppRouter = ()=>{
+    return (
+        <BrowserRouter>
+            <div>
+                <Header/>
+                <Route path="/" exact={true} component={UserFilter}/>
+                <Route path="/" exact={true} component={UserList}/>
+                <Route path="/prevsearch" component={PrevSearch}/>
+                <Route path="/profile/:id" component={UserProfile}/>
+            </div>
+        </BrowserRouter>
+    )
+}
+
+export default AppRouter

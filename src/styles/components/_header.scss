@@ -1,0 +1,32 @@
+.header{
+    background: $dark-blue;
+}
+.header__title{
+    color: white;
+    text-decoration: none;
+    h1{
+        margin: 0;
+    }
+}
+.header__friends{
+    font-size: $font-size-small;
+    color: white;
+    margin-bottom: 10px;
+    span{
+        color: white;
+        font-size: $font-size-small;
+    }
+}
+
+.header__content{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size 0;
+    .header__prev{
+        color: white;
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 6px;
+    }
+}

@@ -1,0 +1,11 @@
+.text-input{
+    border: 1px solid #cacccd;
+    height: 40px;
+    font-size: $font-size-large;
+    font-weight: 300;
+    padding: $s-size;
+}
+.line{
+    padding: $m-size 0px;
+    border-bottom: 2px solid $grey;
+}
